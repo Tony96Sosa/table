@@ -1,0 +1,85 @@
+#root {
+  width: 280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .fixed-column {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+} */
+
+/* .fixed-column .MuiDataGrid-columnHeader {
+  position: sticky;
+  left: 0;
+  background-color: inherit;
+  z-index: 2; 
+} */
+
+/* -------------------------------- */
+
+/* .fixed-column {
+  position: sticky;
+  left: 0;
+  background-color: white; 
+  z-index: 1; 
+}
+
+.fixed-column-header {
+  position: sticky;
+  left: 0;
+  background-color: white; 
+  z-index: 2; 
+} */
+
+/* -------------------------------- */
+
+/* .MuiDataGrid-columnHeader.fixed-column {
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 2;
+} */
+
+/* .fixed-column {
+  position: sticky !important;
+  left: 0 !important;
+  background-color: white;
+  z-index: 1 !important;
+}
+
+.fixed-column-header {
+  position: sticky !important;
+  left: 0 !important;
+  background-color: white;
+  z-index: 2 !important;
+} */
+
+/* Asegurar que los encabezados tengan el mismo estilo fijo */
+/* .MuiDataGrid-columnHeaders .fixed-column-header {
+  position: sticky !important;
+  left: 0 !important;
+  background-color: white;
+  z-index: 2 !important;
+} */
+
+.MuiDataGrid-columnHeadersInner {
+  transform: none !important;
+}
+
+.fixed-column-header {
+  position: sticky;
+  left: 0;
+  z-index: 1000;
+  background: white;
+}
+
+.fixed-column {
+  position: sticky;
+  left: 0;
+  z-index: 999;
+  background: white;
+}
